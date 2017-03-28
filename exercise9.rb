@@ -17,3 +17,5 @@ updated_grocery_list.each do |gl|
       puts "* #{gl}\n"
 
 end
+
+puts "You have a total of #{updated_grocery_list.count} items in your grocery list"
