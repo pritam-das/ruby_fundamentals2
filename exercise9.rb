@@ -28,3 +28,8 @@ response = updated_grocery_list.include?("bananas")
     else
       puts "You don't need to pickup bananas today"
     end
+
+puts "The grocery list in alphabetical order is:\n"
+updated_grocery_list.sort.each do |gl|
+          puts "* #{gl}\n"
+end
