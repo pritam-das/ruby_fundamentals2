@@ -33,3 +33,12 @@ puts "The grocery list in alphabetical order is:\n"
 updated_grocery_list.sort.each do |gl|
           puts "* #{gl}\n"
 end
+
+#salmon deletion
+updated_grocery_list.delete("salmon")
+
+puts "mhmm, looks like salmon is not in the market, here's your updated list:\n"
+
+updated_grocery_list.each do |gl|
+          puts "* #{gl}\n"
+end
